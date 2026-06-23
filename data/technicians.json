@@ -1,5 +1,11 @@
 [
   {
+    "id": "anna",
+    "name": "ANNA",
+    "venmo": "https://venmo.com/u/Truong-Oanh-1",
+    "cashApp": "https://cash.app/$TruongOanh?qr=1"
+  },
+  {
     "id": "bee",
     "name": "BEE",
     "venmo": "https://venmo.com/code?user_id=4114999895131485154&created=1721329974.6408029",
