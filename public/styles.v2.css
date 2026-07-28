@@ -167,10 +167,13 @@ label {
 
 .review-link {
   display: block;
-  border-top: 1px solid #ded4ca;
   margin-top: 2px;
-  padding: 12px 6px 2px;
-  color: #5b4738;
+  padding: 13px 12px;
+  border: 1px solid #916b2e;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #b8873c, #8e6528);
+  box-shadow: 0 8px 16px rgba(112, 79, 28, 0.25);
+  color: #ffffff;
   font-weight: 800;
   line-height: 1.35;
   text-align: center;
@@ -187,8 +190,9 @@ label {
 }
 
 .review-link:hover {
-  color: #9c6e24;
-  text-decoration: underline;
+  background: linear-gradient(135deg, #c19245, #9e7432);
+  color: #ffffff;
+  transform: translateY(-1px);
 }
 
 .status {
