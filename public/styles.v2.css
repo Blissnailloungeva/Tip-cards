@@ -165,6 +165,32 @@ label {
   box-shadow: 0 10px 20px rgba(79, 140, 98, 0.35);
 }
 
+.review-link {
+  display: block;
+  border-top: 1px solid #ded4ca;
+  margin-top: 2px;
+  padding: 12px 6px 2px;
+  color: #5b4738;
+  font-weight: 800;
+  line-height: 1.35;
+  text-align: center;
+  text-decoration: none;
+}
+
+.review-link span {
+  display: block;
+  color: #75675c;
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.review-link:hover {
+  color: #9c6e24;
+  text-decoration: underline;
+}
+
 .status {
   margin: 12px 0 0;
   font-size: 0.95rem;

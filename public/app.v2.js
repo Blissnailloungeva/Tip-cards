@@ -2,6 +2,7 @@ const techList = document.getElementById('tech-list');
 const statusEl = document.getElementById('status');
 
 const csvUrl = (window.APP_CONFIG && window.APP_CONFIG.googleSheetCsvUrl) || '';
+const googleReviewUrl = (window.APP_CONFIG && window.APP_CONFIG.googleReviewUrl) || '';
 const fallbackCsvUrl = 'technicians.csv';
 let technicians = [];
 let selectedTechId = '';
@@ -233,6 +234,17 @@ function updateActions() {
   }
 
   inline.appendChild(buttons);
+
+  if (googleReviewUrl) {
+    const review = document.createElement('a');
+    review.className = 'review-link';
+    review.target = '_blank';
+    review.rel = 'noopener noreferrer';
+    review.href = googleReviewUrl;
+    review.innerHTML = '<span>Already sent your tip?</span> Leave us a Google review';
+    inline.appendChild(review);
+  }
+
   selectedItem.appendChild(inline);
 
   setStatus('');
