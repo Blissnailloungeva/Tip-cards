@@ -241,7 +241,7 @@ function updateActions() {
     review.target = '_blank';
     review.rel = 'noopener noreferrer';
     review.href = googleReviewUrl;
-    review.innerHTML = '<span>Already sent your tip?</span> Leave us a Google review';
+    review.textContent = 'Did you enjoy your service? Leave us a Google Review.';
     inline.appendChild(review);
   }
 
