@@ -30,12 +30,6 @@
     "cashApp": "https://cash.app/$kmaleon?qr=1"
   },
   {
-    "id": "dora",
-    "name": "DORA",
-    "venmo": "https://venmo.com/code?user_id=4353532966733546266&created=1750435385",
-    "cashApp": "https://cash.app/$ThiNgocDungHuynh?qr=1"
-  },
-  {
     "id": "ellie",
     "name": "ELLIE",
     "venmo": "https://venmo.com/code?user_id=2897487195013120826&created=1759870390.51847",
